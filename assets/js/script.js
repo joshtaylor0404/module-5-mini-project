@@ -72,7 +72,7 @@ $(function() {
             var today = dayjs();
             var dueDate = dayjs(project.dueDate, 'YYYY-MM-DD');
             
-            var tr = $('<tr>');
+            var tr = $('<tr class="align-middle">');
 
             if(dueDate.isSame(today, 'day')) {
                 tr.addClass('table-warning');

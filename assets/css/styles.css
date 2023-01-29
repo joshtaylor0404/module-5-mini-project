@@ -1,4 +1,16 @@
+.table-custom {
+    overflow: hidden;
+}
+
 .table-custom thead {
     background-color: var(--bs-danger);
-    border-bottom: 2px solid var(--bs-body-color);
+    border-bottom: 2px solid var(--bs-border-color-translucent);
+}
+
+.table-custom tbody {
+    border-style: inherit;
+}
+
+.table-custom tbody tr:last-child {
+    border-bottom: 0px hidden;
 }

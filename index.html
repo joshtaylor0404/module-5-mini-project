@@ -41,7 +41,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                        <table class="table table-custom">
+                    <div class="card table-custom mb-5">
+                        <table class="table mb-0">
                             <thead class="text-light">
                                 <tr>
                                     <th scope="col">Name</th>
@@ -54,6 +55,8 @@
                                 <!-- TODO: Render projects... -->
                             </tbody>
                         </table>
+                    </div>
+
                 </div>
             </div>
 
@@ -80,24 +83,25 @@
                             <label for="project-type" class="form-label">Project Type</label>
                             <select id="project-type" name="project-type" class="form-select" required>
                                 <option value="Web Application (Front End)">
-                                  Web Application (Front End)
+                                    Web Application (Front End)
                                 </option>
                                 <option value="Web Application (Back End)">
-                                  Web Application (Back End)
+                                    Web Application (Back End)
                                 </option>
                                 <option value="Web Application (Full Stack)">
-                                  Web Application (Full Stack)
+                                    Web Application (Full Stack)
                                 </option>
                                 <option value="Mobile Application">Mobile Application</option>
                                 <option value="Print Campaign">Print Campaign</option>
                                 <option value="Digital Marketing Campaign">
-                                  Digital Marketing Campaign
+                                    Digital Marketing Campaign
                                 </option>
-                              </select>
+                            </select>
                         </div>
                         <div class="mb-3">
                             <label for="project-due-date" class="form-label">Due Date</label>
-                            <input type="date" class="form-control" name="project-due-date" id="project-due-date" required>
+                            <input type="date" class="form-control" name="project-due-date" id="project-due-date"
+                                required>
                         </div>
                     </div>
                     <div class="modal-footer">
